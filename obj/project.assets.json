@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.41.0": {
@@ -4047,23 +4047,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\st310-08\\.nuget\\packages\\": {},
+    "C:\\Users\\voros\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Voroshilov_pr41\\trpo8\\trpo8.csproj",
+      "projectUniqueName": "D:\\ProgrammingAll\\4 курс\\trpo8\\trpo8.csproj",
       "projectName": "trpo8",
-      "projectPath": "C:\\Voroshilov_pr41\\trpo8\\trpo8.csproj",
-      "packagesPath": "C:\\Users\\st310-08\\.nuget\\packages\\",
-      "outputPath": "C:\\Voroshilov_pr41\\trpo8\\obj\\",
+      "projectPath": "D:\\ProgrammingAll\\4 курс\\trpo8\\trpo8.csproj",
+      "packagesPath": "C:\\Users\\voros\\.nuget\\packages\\",
+      "outputPath": "D:\\ProgrammingAll\\4 курс\\trpo8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\st310-08\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\voros\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4071,13 +4071,13 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -4092,10 +4092,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
@@ -4140,7 +4141,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
