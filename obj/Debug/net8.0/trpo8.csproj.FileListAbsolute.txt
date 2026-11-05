@@ -293,3 +293,4 @@ D:\ProgrammingAll\4 курс\trpo8\obj\Debug\net8.0\swae.build.ex.cache
 D:\ProgrammingAll\4 курс\trpo8\obj\Debug\net8.0\trpo8.csproj.Up2Date
 D:\ProgrammingAll\4 курс\trpo8\obj\Debug\net8.0\trpo8.genruntimeconfig.cache
 D:\ProgrammingAll\4 курс\trpo8\obj\Debug\net8.0\ref\trpo8.dll
+C:\Voroshilov_pr41\trpo8\obj\Debug\net8.0\trpo8.sourcelink.json

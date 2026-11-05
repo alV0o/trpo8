@@ -14,6 +14,4 @@ public partial class Task
     public string OwnerLogin { get; set; } = null!;
 
     public bool IsCompleted { get; set; }
-
-    public virtual User OwnerLoginNavigation { get; set; } = null!;
 }

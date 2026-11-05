@@ -46,6 +46,8 @@ namespace trpo8.Controllers
         [Authorize(Roles = "User, Admin")]
         public IActionResult CreateTask(TaskAddDto taskDto)
         {
+            if (String.IsNullOrWhiteSpace(taskDto.title) || String.IsNullOrWhiteSpace(taskDto.description))
+                return Conflict();
             var task = new Task
             {
                 Title = taskDto.title,
@@ -63,6 +65,8 @@ namespace trpo8.Controllers
         [Authorize(Roles = "User, Admin")]
         public IActionResult PutTask([FromRoute] int id, TaskUpdateDto taskDto)
         {
+            if (String.IsNullOrWhiteSpace(taskDto.title) || String.IsNullOrWhiteSpace(taskDto.description))
+                return Conflict();
             if (_taskService.GetAll().Any(p => p.Id == id))
             {
                 if (User.IsInRole("Admin") || _taskService.GetAll().Any(p => p.OwnerLogin == User.Identity?.Name && p.Id == id))
